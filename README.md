@@ -21,13 +21,13 @@ The result will be something like :
     )
 
 
-To get the number of results just use `Solver(List(King, King, Rook), 3, 3).size` (will return you 4)
+To get the number of results just use `Solver(List(King, King, Rook), 3, 3).size` (will return you 4).
 
-There is a function for graphics output called Solver.printOutput
+There is a function for graphics output called `Solver.printOutput`.
 
     printOutput(solutionsList: List[Solution])(implicit limit: Int): Unit
 
-limit is the number of solutions printed out graphically in console 
+limit is the number of solutions printed out graphically in console. 
 For example `Solver.printOutput(Solver(List(King, King, Rook), 3, 3))(2)` will output : 
 
 Start
